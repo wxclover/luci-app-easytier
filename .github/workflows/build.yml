@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - arm_cortex-a9
+          - cortexa9
         sdk:
           - 18.06.9
 
