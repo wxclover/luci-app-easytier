@@ -28,9 +28,10 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - arm_cortex_a9
+          - arm_cortex-a9
         sdk:
-          - openwrt-22.03
+          - 22.03.7
+          - 18.06.9
 
     steps:
       - uses: actions/checkout@v5
