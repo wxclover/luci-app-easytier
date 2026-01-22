@@ -31,7 +31,6 @@ jobs:
           - arm_cortex-a9
         sdk:
           - 18.06.9
-          - SNAPSHOT
 
     steps:
       - uses: actions/checkout@v5
